@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcstyle.css">
+</head>
+<body>
+    <h1>calculator</h1>
+    <div class="border">
+    <div class="ans">
+        <input readonly type="numbers" name="numbers" id="output" value=""> <button id="Answer" onclick="Calculate()">=</button> <button id="clear" onclick="del()">Clear</button>
+    </div>
+    <div class="numbers">
+        <button id="One" onclick="one()" value="1">1</button>
+        <button id="Two" onclick="two()" value="2">2</button>
+        <button id="Three" onclick="three()" value="3">3</button>
+        <button id="Plus" onclick="plus()" value="+">+</button>
+        <button id="Four" onclick="four()" value="4">4</button>
+        <button id="Five" onclick="five()" value="5">5</button>
+        <button id="Six" onclick="six()" value="6">6</button>
+        <button id="Minus" onclick="minus()" value="-">-</button>
+        <button id="Seven" onclick="seven()" value="7">7</button>
+        <button id="Eight" onclick="eight()" value="8">8</button>
+        <button id="Nine" onclick="nine()" value="9">9</button>
+        <button id="Divide" onclick="divide()" value="/">/</button>
+        <button id="Point" onclick="point()" value=".">.</button>
+        <button id="Zero" onclick="zero()" value="0">0</button>
+        <button id="Percent" onclick="percent()" value="%">%</button>
+        <button id="Star" onclick="star()" value="*">*</button>
+
+    </div>
+</div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
