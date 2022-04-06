@@ -1,0 +1,96 @@
+.soups {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* justify-content: center; */
+}
+#tea{
+    margin: 5px 9px;
+    padding: 5px 2px;
+    background-color: rgb(235, 109, 109);
+    color: rgb(204, 237, 238);
+    border: 2px solid rgb(117, 115, 115);
+    border-radius: 7px;
+    /* align-items: center; */
+}
+#photos{
+    /* display: flex;
+    justify-content: space-between;
+    margin: 50px 0px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+    color: rgb(231, 83, 46);
+    border: 5px solid greenyellow;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    max-width: 500px;
+    margin: auto;
+}
+body{
+    background-color: black;
+}
+.soups img{
+    border-radius: 17px;
+}
+.ingrediants{
+    color: rgb(221, 20, 97);
+    background-color: rgba(227, 227, 236, 0.664);
+    /* height: 900px; */
+    /* width: 80%; */
+    margin:20px 30px;
+    border-radius: 17px;
+    /* text-align: center; */
+    padding: 10px 25px;
+    /* justify-content: center; */
+    display: grid;
+    grid-template-columns: auto;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    
+}
+.ingrediants h1,h3{
+    color: rgb(231, 83, 46);
+     text-align: center;
+     border: 5px solid greenyellow;
+     background-color: rgb(21, 19, 22);
+     font-size: 30px;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+
+     /* justify-content: center; */
+     
+}
+.ingrediants h3{
+    max-width: 500px;
+    margin: auto;
+    border: 0px ;
+    border-radius: 10px;
+    padding: 10px;
+}
+@media screen and (max-width:650px) {
+#photos{
+        grid-template-columns: repeat(2, auto);
+    }
+    .ingrediants{
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width:540px) {
+#photos{
+        grid-template-columns: repeat(2, auto);
+    }
+    .ingrediants{
+        grid-template-columns: auto;
+    }
+}
+@media screen and (max-width:360px) {
+#photos{
+        grid-template-columns: repeat(2, auto);
+    }
+    .ingrediants{
+        grid-template-columns: auto;
+    }
+}
