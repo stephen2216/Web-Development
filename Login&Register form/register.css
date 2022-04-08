@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* body::before{    
+    content: "";
+            background: url("https://images.unsplash.com/photo-1648659170064-d7f71d924fae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=813&q=80") no-repeat center center/cover;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.9;
+} */
+body{
+    background-color: black;
+}
+.register{
+    margin-top: 8% !important;
+    text-align: center;
+    border: 2px solid rgb(177, 174, 174);
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    /* height: 150px; */
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.377);
+    box-shadow: 0px 0px 10px 1px white;
+}
+.register input{
+    margin: 10px 0px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 50%;
+    padding: 10px;
+    border: 0px solid white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+}
+button{
+    padding: 10px;
+    border: 0px solid white;
+    border-radius: 11px;
+    width: 30%;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+    /* float: left; */
+}
+/* .register form{
+    color: green;
+} */
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 0px 10px 15px green;
+    font-family: 'Rubik Puddles', cursive;
+}
+button:hover{
+    color: black;
+    background-color: rgb(59, 57, 57);
+    box-shadow: 0px 0px 15px 3px black;
+}
+#but a:hover{
+    color: black;
+    /* background-color: rgb(59, 57, 57);
+    box-shadow: 0px 0px 15px 3px black; */
+}
+#but a{
+    text-decoration: none;
+    color: blueviolet;
+}
+@media only screen and (max-width: 400px) {
+    .register{
+        max-width: 300px;
+        /* margin: 8% 10px; */
+        /* background-color: red !important ; */
+    }
+ }
+ @media only screen and (max-width: 550px) {
+    .register{
+        max-width: 400px;
+        /* margin: 8% 10px; */
+        /* background-color: red !important ; */
+    }
+ }
+ @media only screen and (max-width: 450px) {
+    .register{
+        max-width: 300px;
+        /* margin: 8% 10px; */
+        /* background-color: red !important ; */
+    }
+ }
+ @media only screen and (max-width: 390px) {
+    .register{
+        max-width: 280px;
+        /* margin: 8% 10px; */
+        /* background-color: red !important ; */
+    }
+ }
+ @media only screen and (max-width: 300px) {
+    .register{
+        max-width: 200px;
+        /* margin: 8% 10px; */
+        /* background-color: red !important ; */
+    }
+    .login input{
+         width: 190px;
+    }
+ }
+ @media only screen and (max-width: 320px) {
+   .register form{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-content: center;
+   }
+   .register input{
+       margin: 0%;
+       padding: 1%;
+       width: 100%;
+   }
+   .register{
+       max-width: 250px;
+   }
+   button{
+       width: 100%;
+       
+   }
+ }

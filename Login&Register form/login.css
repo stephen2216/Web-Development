@@ -1,0 +1,82 @@
+#box{
+    border: 2px solid black;
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 12% !important;
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px white ;
+}
+.login img{
+    margin: 10px 0px;
+    height: 150px;
+}
+.login form{
+    margin-bottom: 15px;
+    color: rgb(44, 231, 238);
+    font-family: 'Dosis', sans-serif;
+}
+.login input{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(94, 91, 91, 0.788);
+    color: rgb(18, 19, 18);
+}
+.in{
+    font-family: 'PT Sans', sans-serif;
+}
+
+button{
+    margin-top: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: black;
+    color: green;
+    padding:10px;
+}
+#bt1{
+    margin-right:15px ;
+}
+body{
+    background-color: rgba(3, 3, 3, 0.897);
+}
+#bt2 a{
+    text-decoration: none;
+    color: green;
+}
+#frg{
+    text-decoration: none;
+}
+@media only screen and (max-width: 400px) {
+   #box{
+       max-width: 370px;
+       /* margin: 8% 10px; */
+       /* background-color: red !important ; */
+   }
+}
+@media only screen and (max-width: 450px) {
+   #box{
+       max-width: 400px;
+       /* margin: 8% 10px; */
+       /* background-color: red !important ; */
+   }
+}
+@media only screen and (max-width: 370px) {
+   #box{
+       max-width: 300px;
+       /* margin: 8% 10px; */
+       /* background-color: red !important ; */
+   }
+}
+@media only screen and (max-width: 300px) {
+   #box{
+       max-width: 200px;
+       /* margin: 8% 10px; */
+       /* background-color: red !important ; */
+   }
+   .login input{
+        width: 190px;
+   }
+}
